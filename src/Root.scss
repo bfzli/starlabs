@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$primary: #ffffff;
+$secondary: #1f1d2b;
+$semi: #525298;
+$area: #252836;
+$border: #52529835;
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: $secondary;
+  color: $primary;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $border;
+  padding: 0.5em;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 3.25em;
+}
+
+.search-holder {
+  width: 100%;
+  background: $area;
+  display: flex;
+  border-radius: 1em;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-left: 0.6em;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all .2s ease-in-out;
+}
+.search-holder:hover{
+  border: 1px solid $semi;
+
+}
+
+.search {
+  background: transparent;
+  border: none;
+  padding: 0.5em 3em 0.5em 1em;
+  font-size: 1.25em;
+  height: 100%;
+  color: $primary;
+}
+
+.searchicon {
+  height: 1.5em;
+  padding-right: 1.5em;
+  margin-bottom: 0.1em;
+  position: absolute;
+  right: 0;
+  stroke: #696565;
+}
+
+.container {
+  padding: 0.5em;
+  width: 100%;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 100%;
+  background: $area;
+  padding: 1em 2em;
+  border-radius: 26px;
+  margin-bottom: 1em;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all .2s ease-in-out;
+}
+
+.card:hover{
+  border: 1px solid $semi;
+}
+
+a{
+  color: $primary;
+  transition: all .2 ease-in-out;
+}
+
+a:hover{
+  color: $semi;
+}
+
+.filter {
+  height: 3.25em;
+  padding: 0.8em;
+  display: flex;
+  border-radius: 1em;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  background: $area;
+  cursor: pointer;
+  border: 1px solid transparent;
+
+}
+
+.filter:hover {
+  background: $semi;
+}
+
+.loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 74px;
+  height: 74px;
+}
+
+.email{
+  display: flex;
+  align-items: center;
+  margin-bottom: .4em;
+}
+
+.phone{
+  display: flex;
+  align-items: center;
+}
+.address{
+  display: flex;
+  align-items: center;
+  margin-bottom: .4em;
+}
+.established{
+  display: flex;
+  align-items: center;
+}
+.website{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2em;
+  margin-top: .5em;
+}
+.body-bottom{
+  display: flex;
+}
+
+.email-ico{
+  margin-right: .5em;
+}
+.established-ico{
+  margin-right: .5em;
+}
+.location-ico{
+  margin-right: .5em;
+}
+.message-ico{
+  margin-right: .5em;
+}
+.phone-ico{
+  margin-right: .5em;
+}
+.website-ico{
+  margin-right: .5em;
+}
+
+.team-title{
+  font-size: 2em !important;
+  font-weight: bold;
+  margin-bottom: .15em;
+}
+
+.team-des{
+  width: 75%;
+  font-size: 1.175em !important;
+}

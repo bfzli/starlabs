@@ -2,7 +2,6 @@ import Email from "./vectors/Email";
 import Established from "./vectors/Established";
 import Website from './vectors/Website';
 import Phone from './vectors/Phone';
-import Message from './vectors/Message';
 import Location from './vectors/Location';
 
 export default function Card({ data }) {
